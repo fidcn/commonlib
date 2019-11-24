@@ -670,7 +670,7 @@ else
 fi
 
 REPOSITORY="$DIRECTORY/$SITE"
-REPOSITORY_URL=${REPOSITORY_URL_OVERRIDE:-git://github.com/mysociety/${SITE}.git}
+REPOSITORY_URL=${REPOSITORY_URL_OVERRIDE:-git://github.com/fidcn/${SITE}.git}
 BRANCH=${BRANCH_OVERRIDE:-master}
 DISTRIBUTION="$(lsb_release -i -s  | tr A-Z a-z)"
 DISTVERSION="$(lsb_release -c -s)"
